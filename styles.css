@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.post{
+    width: 400px;
+    height: 510px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-header-left{
+    display: flex;
+    align-items: center;
+}
+.post-header-left b{
+    display: block;
+}
+i{
+    font-size: 40px;
+}
+.post-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size:30px;
+}
